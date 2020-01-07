@@ -9,3 +9,8 @@ go_binary(
     name = "calculator",
     srcs = ["calculator.go"],
 )
+
+go_binary(
+    name = "countdown",
+    srcs = ["countdown.go"],
+)
