@@ -9,3 +9,9 @@ py_binary(
     srcs = ["calculator.py"],
     python_version = "PY3",
 )
+
+py_binary(
+    name = "sets",
+    srcs = ["sets.py"],
+    python_version = "PY3",
+)
