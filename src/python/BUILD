@@ -15,3 +15,9 @@ py_binary(
     srcs = ["sets.py"],
     python_version = "PY3",
 )
+
+py_binary(
+    name = "countdown",
+    srcs = ["countdown.py"],
+    python_version = "PY3",
+)
