@@ -14,3 +14,8 @@ go_binary(
     name = "countdown",
     srcs = ["countdown.go"],
 )
+
+go_binary(
+    name = "math",
+    srcs = ["math.go"],
+)
