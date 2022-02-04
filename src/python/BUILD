@@ -21,3 +21,9 @@ py_binary(
     srcs = ["countdown.py"],
     python_version = "PY3",
 )
+
+py_binary(
+    name = "find_words_in_phone_number",
+    srcs = ["find_words_in_phone_number.py"],
+    python_version = "PY3",
+)

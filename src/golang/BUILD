@@ -19,3 +19,8 @@ go_binary(
     name = "math",
     srcs = ["math.go"],
 )
+
+go_binary(
+    name = "range",
+    srcs = ["range.go"],
+)
