@@ -24,3 +24,8 @@ go_binary(
     name = "search_in_rotated_array",
     srcs = ["search_in_rotated_array/main.go"],
 )
+
+go_binary(
+    name = "case_permutation_generator",
+    srcs = ["case_permutation_generator/main.go"],
+)
